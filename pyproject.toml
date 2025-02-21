@@ -1,0 +1,12 @@
+[project]
+name = "kafkaimplementation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiokafka>=0.12.0",
+    "fastapi>=0.115.8",
+    "kafka-python>=2.0.3",
+    "uvicorn>=0.34.0",
+]
